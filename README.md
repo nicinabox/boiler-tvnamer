@@ -13,6 +13,6 @@ Configuration at `/boot/plugins/custom/tvnamer/config/tvnamer.json`
     "move_files_enable": true,
     "recursive": true
 
-## Todo
+## Cron
 
-Cron job to watch configurable directory
+    * * * * * tvnamer /mnt/user/Downloads
