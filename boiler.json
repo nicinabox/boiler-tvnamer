@@ -1,0 +1,16 @@
+{
+  "name": "tvnamer",
+  "version": "0.1.0",
+  "description": "A utility to rename and move tv shows",
+  "authors": "Nic Aitch <nic@nicinabox.com>",
+  "dependencies": {
+    "python": "2.6.6"
+  },
+  "license": "MIT",
+  "post_install": [
+    "easy_install tvnamer"
+  ],
+  "symlink": {
+    "/boot/plugins/custom/tvnamer/config/tvnamer.json": "~/.tvnamer.json"
+  }
+}
