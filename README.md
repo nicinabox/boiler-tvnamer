@@ -1,6 +1,7 @@
 # tvnamer
 
-A utility to rename and move tv shows
+Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api.
+See [dbr/tvnamer](https://github.com/dbr/tvnamer) for full usage.
 
 ## Config
 
